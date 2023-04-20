@@ -1,4 +1,11 @@
 #+title: Fibonacci program
 
-A random fun program which has 2 functions `fib_even` and `fib_odd`, where `fib_even` is coded in C lang and `fib_odd` is coded in nasm (using intel x86_64 calling convention).
+* Intro
+This is a random fun program which has 2 functions ~fib_even~ and ~fib_odd~, where ~fib_even~ is coded in C lang and ~fib_odd~ is coded in nasm (using intel x86_64 calling convention).
+
 The program uses these 2 functions to calculate the nth fibnocci number of an input using mutual reccursion.
+* Instruction
+To run this program
+1. Clone the repo
+2. Compile the project using ~make~
+3. Run it using ~./program~
